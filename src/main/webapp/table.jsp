@@ -20,8 +20,8 @@
 
     <c:forEach items="${answerList}" var="i">
     <tr>
-        <td><c:out value="${i.question}"/> </td>
-        <td><c:out value="${i.answer}"/> </td>
+        <td><c:out value="${i.getQuestion()}"/> </td>
+        <td><c:out value="${i.getAnswer()}"/> </td>
     </tr>
     </c:forEach>
 </table>

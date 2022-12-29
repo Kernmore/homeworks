@@ -1,8 +1,8 @@
 package academy.prog;
 
 public class Question {
-    public String question;
-    public String answer;
+    private String question;
+    private String answer;
 
     public Question(String question) {
         this.question = question;
