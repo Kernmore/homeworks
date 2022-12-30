@@ -23,6 +23,7 @@ public class FormServlet extends HttpServlet {
         }
         request.setAttribute("answerList", questions.getList());
 
+
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/table.jsp");
         System.out.println(questions.getList());
         dispatcher.forward(request, response);
