@@ -7,6 +7,12 @@ import java.nio.file.Files;
 public class TextContainer {
 
     private final String text = "fine";
+    private final String texter = "fff";
+    private int test = 15;
+
+    public TextContainer(){
+
+    }
 
     @Saver
     public void save(String text, String path){
@@ -21,6 +27,15 @@ public class TextContainer {
 
     public String getText() {
         return text;
+    }
+
+    @Override
+    public String toString() {
+        return "TextContainer{" +
+                "text='" + text + '\'' +
+                ", texter='" + texter + '\'' +
+                ", test=" + test +
+                '}';
     }
 }
 
