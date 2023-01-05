@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 
 public class Main {
     public static void main(String[] args) {
-        Data data = new Data("Gleb", "Roker", "Surf", 25, 3, new TextContainer());
+        Data data = new Data("Gleb", "Roker", "Surf", 25, 3, new TextContainer() );//new String[]{"tref", "terkl"});
 
         Serializaning<Data> ser = new Serializaning<>();
         try {

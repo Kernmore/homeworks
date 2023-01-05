@@ -15,6 +15,8 @@ public class Data {
     private int numberOfCars;
     @Save
     private TextContainer container;
+//    @Save
+//    private String[] array;
 
     public Data() {
     }
@@ -26,6 +28,7 @@ public class Data {
         this.age = age;
         this.numberOfCars = numberOfCars;
         this.container = container;
+//        this.array = array;
     }
 
     @Override

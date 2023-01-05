@@ -18,7 +18,6 @@ public class Data {
     private Person person;
     @Save
     private String[] array;
-
     public Data() {
     }
 

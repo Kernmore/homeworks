@@ -8,7 +8,6 @@ public class Main {
         Data data = new Data("Gleb", "Roker", "Surf", 25, 3, new Person("t4ext", 45, "yes"), strings);
 
         GsonSerialize<Data> gser = new GsonSerialize<>();
-
         try {
             gser.run(data);
             Data newData = gser.getFrom();

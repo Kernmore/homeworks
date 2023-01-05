@@ -10,7 +10,6 @@ public class Person {
     @Save
     private int ID;
 
-
     public Person(String text, int ID, String spam) {
         this.text = text;
         this.ID = ID;

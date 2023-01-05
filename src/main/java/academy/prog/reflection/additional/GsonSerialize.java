@@ -11,7 +11,6 @@ import java.lang.reflect.Field;
 public class GsonSerialize<T> {
     private final File file = new File("save.txt");
     private Gson gson;
-
     public GsonSerialize() {
         gson = new GsonBuilder().create();
     }
